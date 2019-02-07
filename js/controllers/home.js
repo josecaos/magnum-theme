@@ -1,4 +1,5 @@
-(function(){
+jQuery(document).ready(()=>{
+
   var sections=jQuery('.hm-landing .container > div');
   var animateOnLoad=function(){
     jQuery(document).ready(function(){
@@ -11,8 +12,8 @@
   }
   var animateOnMouseMove=function(){
     jQuery(sections[0]).mousemove(function(e){
-      var xMove = (e.pageX * 1 / 94);
-      var yMove = (e.pageY * 1 / 122);
+      var xMove = (e.pageX * 1 / 940);
+      var yMove = (e.pageY * 1 / 1222);
       jQuery(sections[0]).css({
         '-webkit-transform' : 'translate(calc(-50% - ' + xMove + 'px), calc(-50% - ' + yMove + 'px)',
         '-moz-transform'    : 'translate(calc(-50% - ' + xMove + 'px), calc(-50% - ' + yMove + 'px)',
@@ -25,7 +26,8 @@
   }
   var init=function(){
     animateOnLoad();
-    animateOnMouseMove();
+    // animateOnMouseMove();
   }
   init();
-})()
+//
+})
