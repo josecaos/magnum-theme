@@ -1,12 +1,12 @@
 <?php
+/*
+Template Name: Inicio
+*/
+
+get_header('inicio');
 
 
-
-wp_head();
-
-
-echo "Debug";
+get_template_part("inicio");
 
 
-
-wp_footer();
+get_footer();
