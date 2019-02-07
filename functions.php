@@ -1,6 +1,7 @@
 <?php
 add_filter( 'show_admin_bar', '__return_false' );
 
+add_theme_support('post-thumbnails');
 add_theme_support( 'menus' );
 // Dependencias
 add_action( 'wp_enqueue_scripts', 'dependencias' );
@@ -13,7 +14,7 @@ function dependencias() {
   //
   wp_enqueue_script( 'jquery', get_template_directory_uri() . '/js/libs/jquery.min.js' );
   wp_enqueue_script( 'home-js', get_template_directory_uri() . '/js/controllers/home.js', array('jquery') );
-  wp_enqueue_script( 'slider-js', get_template_directory_uri() . '/js/controllers/slider.js', array('jquery') );
+  // wp_enqueue_script( 'slider-js', get_template_directory_uri() . '/js/controllers/slider.js', array('jquery') );
   wp_enqueue_script( 'custom-js', get_template_directory_uri() . '/js/custom.js', array('jquery') );
 
 }
@@ -51,4 +52,8 @@ function cpt($cpt_slug,$paginado,$post_num=8,$orderby='ID') {
     'orderby' => $orderby,
     'order'   => 'DESC',
   );
+}
+add_action( 'init', 'add_category_taxonomy_to_events' );
+function add_category_taxonomy_to_events() {
+	register_taxonomy_for_object_type( 'category', 'broadcast-cpt' );
 }

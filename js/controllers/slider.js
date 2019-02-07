@@ -1,4 +1,5 @@
-(function(){
+jQuery(document).ready(()=>{
+  alert("broadcast?")
   var initListeners=function(){
     var buttons=jQuery('.slider-titles li');
     var elements=jQuery('.slider-elements');

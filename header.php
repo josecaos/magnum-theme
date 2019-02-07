@@ -5,10 +5,12 @@
   <meta http-equiv="content-type" content="charset=utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-  <link rel="icon" type="image/png" href="<?php get_template_directory_uri();?>/images/global/favicon.png">
+  <link rel="icon" type="image/png" href="<?php echo get_template_directory_uri();?>/images/global/favicon.png">
   <?php wp_head(); ?>
 </head>
 
+<body class="bg-magnum-circle">
+  
   <section class="header">
     <div class="container">
       <a href="<?php echo home_url();?>">
