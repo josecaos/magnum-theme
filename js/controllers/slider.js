@@ -16,4 +16,4 @@ jQuery(document).ready(()=>{
     initListeners();
   }
   init();
-})()ss("active"),a.addClass("active"),o.children().removeClass("active"),jQuery(o.children()[a.index()]).addClass("active"),jQuery("html, body").animate({scrollTop:jQuery(".slider-elements").offset().top},300);var t=jQuery("<a>",{class:"btn-gotop"});t.html('<img src="../images/global/magnum-more.png" alt="">'),o.append(t),i(a.index())});var a=n();console.log(a),e[a].click()};!function(){e()}()}();
+})()ss("active"),a.addClass("active"),o.children().removeClass("active"),jQuery(o.children()[a.index()]).addClass("active"),jQuery("html, body").animate({scrollTop:jQuery(".slider-elements").offset().top},300);var t=jQuery("<a>",{class:"btn-gotop"});t.html('<img src="/wp-content/themes/magnum-theme/images/global/magnum-more.png" alt="">'),o.append(t),i(a.index())});var a=n();console.log(a),e[a].click()};!function(){e()}()}();
