@@ -1,14 +1,16 @@
-<body class="bg-magnum-circle-intern">
 
 <section class="hm-landing">
+  <?php
+if (get_locale() == 'es_MX' ):
+   ?>
   <div class="container">
     <div>
       <div>
         <h1>
-          <a href="sections/about-us.html">
+          <a href="<?php echo get_page_link(42);?>">
             <img src="<?php echo get_template_directory_uri();?>/images/sections/home/magnum-logo-circulo.png" alt="">
           </a>
-          <a class="float-more" href="sections/about-us.html">
+          <a class="float-more" href="<?php echo get_page_link(42);?>">
             <img src="<?php echo get_template_directory_uri();?>/images/global/magnum-more.png" alt="">
           </a>
         </h1>
@@ -17,7 +19,7 @@
     <div>
       <div>
         <h2>
-          <a href="sections/broadcast.html">Broadcast
+          <a href="<?php echo get_page_link(6);?>">Broadcast
           </a>
         </h2>
       </div>
@@ -26,14 +28,14 @@
     <div>
       <div>
         <h2>
-          <a href="sections/live.html">Live</a>
+          <a href="<?php echo get_page_link(32);?>">En vivo</a>
         </h2>
       </div>
     </div>
     <div>
       <div>
         <h2>
-          <a href="sections/instalations.html">Instalaciones
+          <a href="<?php echo get_page_link(37);?>">Instalaciones
           </a>
         </h2>
       </div>
@@ -41,7 +43,7 @@
     <div>
       <div>
         <h2>
-          <a href="sections/p-streaming.html">Producción <br>& streaming
+          <a href="<?php echo get_page_link(40);?>">Producción <br>& Transmisión
           </a>
         </h2>
       </div>
@@ -50,7 +52,7 @@
     <div>
       <div>
         <h2>
-          <a href="sections/service.html">Centro de servicio
+          <a href="<?php echo get_page_link(47);?>">Centro de servicio
           </a>
         </h2>
       </div>
@@ -59,14 +61,14 @@
     <div>
       <div>
         <h2>
-          <a href="sections/shop.html">Magnum Shop</a>
+          <a href="<?php echo get_page_link(34);?>">Tienda Magnum</a>
         </h2>
       </div>
     </div>
     <div>
       <div>
         <h2>
-          <a href="sections/contact.html">Contacto
+          <a href="<?php echo get_page_link(49);?>">Contacto
           </a>
         </h2>
       </div>
@@ -74,16 +76,7 @@
     <div>
       <div>
         <h2>
-          <a href="sections/shop.html">Magnum <br>shop
-          </a>
-        </h2>
-      </div>
-      <img src="<?php echo get_template_directory_uri();?>/images/sections/home/magnum-shop.png" alt="">
-    </div>
-    <div>
-      <div>
-        <h2>
-          <a href="sections/instalations.html">Instalaciones
+          <a href="<?php echo get_page_link(34);?>">Tienda <br>Magnum
           </a>
         </h2>
       </div>
@@ -92,11 +85,125 @@
     <div>
       <div>
         <h2>
-          <a href="sections/acoustic.html">Acondicionamiento<br>acústico
+          <a href="<?php echo get_page_link(37);?>">Instalaciones
+          </a>
+        </h2>
+      </div>
+      <img src="<?php echo get_template_directory_uri();?>/images/sections/home/magnum-shop.png" alt="">
+    </div>
+    <div>
+      <div>
+        <h2>
+          <a href="<?php echo get_page_link(44);?>">Acondicionamiento<br>acústico
           </a>
         </h2>
       </div>
       <img src="<?php echo get_template_directory_uri();?>/images/sections/home/magnum-shop.png" alt="">
     </div>
   </div>
+
+<?php
+elseif (get_locale() == 'en_US'):
+
+ ?>
+ <div class="container">
+   <div>
+     <div>
+       <h1>
+         <a href="<?php echo get_page_link(66);?>">
+           <img src="<?php echo get_template_directory_uri();?>/images/sections/home/magnum-logo-circulo.png" alt="">
+         </a>
+         <a class="float-more" href="<?php echo get_page_link(66);?>">
+           <img src="<?php echo get_template_directory_uri();?>/images/global/magnum-more.png" alt="">
+         </a>
+       </h1>
+     </div>
+   </div>
+   <div>
+     <div>
+       <h2>
+         <a href="<?php echo get_page_link(83);?>">Broadcast
+         </a>
+       </h2>
+     </div>
+     <img src="<?php echo get_template_directory_uri();?>/images/sections/home/magnum-broadcast.png" alt="">
+   </div>
+   <div>
+     <div>
+       <h2>
+         <a href="<?php echo get_page_link(70);?>">Live</a>
+       </h2>
+     </div>
+   </div>
+   <div>
+     <div>
+       <h2>
+         <a href="<?php echo get_page_link(74);?>">Installations
+         </a>
+       </h2>
+     </div>
+   </div>
+   <div>
+     <div>
+       <h2>
+         <a href="<?php echo get_page_link(62);?>">Production <br>& Streaming
+         </a>
+       </h2>
+     </div>
+     <img src="<?php echo get_template_directory_uri();?>/images/sections/home/magnum-produccion.png" alt="">
+   </div>
+   <div>
+     <div>
+       <h2>
+         <a href="<?php echo get_page_link(80);?>">
+           Service<br>Center
+         </a>
+       </h2>
+     </div>
+     <img src="<?php echo get_template_directory_uri();?>/images/sections/home/magnum-centro-de-servicio.png" alt="">
+   </div>
+   <div>
+     <div>
+       <h2>
+         <a href="<?php echo get_page_link(55);?>">Magnum Shop</a>
+       </h2>
+     </div>
+   </div>
+   <div>
+     <div>
+       <h2>
+         <a href="<?php echo get_page_link(77);?>">Contact
+         </a>
+       </h2>
+     </div>
+   </div>
+   <div>
+     <div>
+       <h2>
+         <a href="<?php echo get_page_link(55);?>">Magnum <br>shop
+         </a>
+       </h2>
+     </div>
+     <img src="<?php echo get_template_directory_uri();?>/images/sections/home/magnum-shop.png" alt="">
+   </div>
+   <div>
+     <div>
+       <h2>
+         <a href="<?php echo get_page_link(74);?>">Installations
+         </a>
+       </h2>
+     </div>
+     <img src="<?php echo get_template_directory_uri();?>/images/sections/home/magnum-shop.png" alt="">
+   </div>
+   <div>
+     <div>
+       <h2>
+         <a href="<?php echo get_page_link(89);?>">Acoustic<br>conditioning
+         </a>
+       </h2>
+     </div>
+     <img src="<?php echo get_template_directory_uri();?>/images/sections/home/magnum-shop.png" alt="">
+   </div>
+ </div>
+<?php endif; ?>
 </section>

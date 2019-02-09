@@ -14,7 +14,7 @@ function dependencias() {
   //
   wp_enqueue_script( 'jquery', get_template_directory_uri() . '/js/libs/jquery.min.js' );
   wp_enqueue_script( 'home-js', get_template_directory_uri() . '/js/controllers/home.js', array('jquery') );
-  // wp_enqueue_script( 'slider-js', get_template_directory_uri() . '/js/controllers/slider.js', array('jquery') );
+  wp_enqueue_script( 'slider-js', get_template_directory_uri() . '/js/plugins/slick.min.js', array('jquery') );
   wp_enqueue_script( 'custom-js', get_template_directory_uri() . '/js/custom.js', array('jquery') );
 
 }
