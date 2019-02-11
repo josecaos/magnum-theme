@@ -2,13 +2,13 @@ jQuery(document).ready(()=>{
 
   var sections=jQuery('.hm-landing .container > div');
   var animateOnLoad=function(){
-    jQuery(document).ready(function(){
-      setTimeout(function(){
-        sections.each(function(i,e){
-          jQuery(this).addClass('show');
-        })
-      },1000)
-    })
+    // jQuery(document).ready(function(){
+    setTimeout(function(){
+      sections.each(function(i,e){
+        jQuery(this).addClass('show');
+      })
+    },1000)
+    // })
   }
   var animateOnMouseMove=function(){
     jQuery(sections[0]).mousemove(function(e){
@@ -29,5 +29,5 @@ jQuery(document).ready(()=>{
     // animateOnMouseMove();
   }
   init();
-//
+  //
 })

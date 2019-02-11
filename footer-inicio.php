@@ -1,4 +1,4 @@
-<footer>
+<footer id="footer-inicio">
   <div class="container">
     <div class="col-4">
       <p>

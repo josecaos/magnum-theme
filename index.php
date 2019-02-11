@@ -9,4 +9,4 @@ get_header('inicio');
 get_template_part("inicio");
 
 
-get_footer();
+get_footer('inicio');

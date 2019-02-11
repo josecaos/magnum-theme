@@ -19,7 +19,7 @@
 }
 
 input::placeholder {
-  color: red !important;
+  color: white !important;
 }
 /*  */
 #langs{
@@ -40,4 +40,29 @@ input::placeholder {
 .locale_active_inicio {
   font-weight: bolder !important;
   color: #001f34 !important
+}
+.hm-landing .container {
+    min-height: 420px;
+    height: 55vh;
+}
+footer#footer-inicio p {
+  color: #002740 !important;
+}
+footer p {
+  color: white !important;
+}
+footer p strong {
+  color: white !important;
+}
+/* h2 + p {
+    font-size: 18px;
+    margin: 0 0 15px 0;
+    padding-bottom: 9px;
+    font-weight: 300;
+    border-bottom: 1px solid #e9e9e9;
+    color: #fff;
+} */
+/*  */
+.slick-dots li button::before {
+  color: white !important;
 }

@@ -1,5 +1,4 @@
 jQuery(document).ready(()=>{
-
 var initListeners=function(){
   var buttons=jQuery('.slider-titles li');
   var elements=jQuery('.slider-elements');

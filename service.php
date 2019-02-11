@@ -4,29 +4,45 @@ Template Name: Centro de Servicio
 */
 
 get_header();
+?>
 
-
-
-while (have_posts()):
-  the_post();
-
-  echo get_the_content();
-
-endwhile;
- ?>
-
-<!--
  <section class="detail-product">
    <div class="container">
      <div class="row">
        <div class="col-6">
-         <h2>CENTRO DE SERVICIO</h2>
+
+         <?php
+
+         while (have_posts()):
+           the_post();
+
+           echo wpautop(get_the_content());
+
+         endwhile;
+         ?>
+
+
+         <!-- <h2>CENTRO DE SERVICIO</h2>
          <p>Conócenos</p>
          <ul>
            <li>Centro de servicio técnico especializado en equipos de audio y video profesional, así como de las marcas y productos que representa Magnum.</li>
            <li>Centro de servicio autorizado de Yamaha Audio Profesional y Commercial Audio.</li>
            <li>Magnum cuenta con años de experiencia en el diagnóstico y reparación de equipos de audio y video profesional así como con personal altamente capacitado y especializado.</li>
-         </ul><a class="btn-default" href="contact.html">Contactar</a>
+         </ul> -->
+
+
+         <?php
+         if (get_locale() == 'es_MX'):
+           ?>
+           <a class="btn-default" href="<?php echo get_page_link(49); ?>  ">Contactar</a>
+           <?php
+           elseif (get_locale() == 'en_US'):
+             ?>
+             <a class="btn-default" href="<?php echo get_page_link(77); ?>  ">Contact</a>
+             <?php
+           endif;
+           ?>
+           
        </div>
        <div class="col-6">
          <div class="carrousel">
@@ -41,7 +57,7 @@ endwhile;
      </div>
    </div>
  </section>
- -->
+
 
 
 
