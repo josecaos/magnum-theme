@@ -48,6 +48,9 @@ input::placeholder {
 footer#footer-inicio p {
   color: #002740 !important;
 }
+footer#footer-inicio p strong{
+  color: #001F34 !important;
+}
 footer p {
   color: white !important;
 }
