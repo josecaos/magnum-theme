@@ -15,7 +15,7 @@ get_header();
         while (have_posts()):
           the_post();
 
-          echo get_the_content();
+          echo wpautop(get_the_content());
 
         endwhile;
         ?>

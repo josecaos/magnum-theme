@@ -6,19 +6,24 @@ Template Name: About Us
 get_header();
 
 
-while (have_posts()):
-  the_post();
 
-  echo get_the_content();
-
-endwhile;
 
 ?>
 
-<!--
  <section class="our-brands">
    <div class="container">
      <div class="row">
+
+<?php
+while (have_posts()):
+  the_post();
+
+  echo wpautop(get_the_content());
+
+endwhile;
+ ?>
+       <!--
+
        <h2>Nosotros</h2>
        <p>Conócenos</p>
        <div class="slider-container row slider-about-us">
@@ -70,10 +75,10 @@ endwhile;
            </div>
          </div>
        </div>
+     -->
      </div>
    </div>
  </section>
- -->
 
 
  <?php get_footer(); ?>
