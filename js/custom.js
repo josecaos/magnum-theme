@@ -31,7 +31,18 @@ var init=function(){
 init()
 
 slider()
+
+// index about hover
+jQuery('#inicio-nosotros, #inicio-about').hover(() => {
+  jQuery('.index-about-text').removeClass('hide');
+  jQuery('.float-more').addClass('hide');
+},() => {
+  jQuery('.float-more').removeClass('hide');
+  jQuery('.index-about-text').addClass('hide');
 })
+
+//
+})//ready
 
 
 function slider() {

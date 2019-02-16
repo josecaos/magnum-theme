@@ -22,7 +22,7 @@
 
         <a id="english" href="<?php echo get_site_url();?>/en">En</a>
         <p>/</p>
-        <a id="espanol" href="<?php echo get_site_url();?>/es">Es</a>
+        <a id="espanol" href="<?php echo get_site_url();?>">Es</a>
         <input type="checkbox">
         <div class="icon">
           <img src="<?php echo get_template_directory_uri();?>/images/global/magnum-menu.png" alt="">

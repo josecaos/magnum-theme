@@ -2,9 +2,10 @@
 <section class="hm-landing">
   <?php
 if (get_locale() == 'es_MX' ):
+  $txt = "Nosotros";
    ?>
   <div class="container">
-    <div>
+    <div id="inicio-nosotros">
       <div>
         <h1>
           <a href="<?php echo get_page_link(42);?>">
@@ -12,6 +13,9 @@ if (get_locale() == 'es_MX' ):
           </a>
           <a class="float-more" href="<?php echo get_page_link(42);?>">
             <img src="<?php echo get_template_directory_uri();?>/images/global/magnum-more.png" alt="">
+          </a>
+          <a class="index-about-text hide" href="<?php echo get_page_link(42);?>">
+            <p class=""><?php echo $txt; ?></p>
           </a>
         </h1>
       </div>
@@ -104,10 +108,10 @@ if (get_locale() == 'es_MX' ):
 
 <?php
 elseif (get_locale() == 'en_US'):
-
+$txt = "About Us";
  ?>
  <div class="container">
-   <div>
+   <div id="inicio-about">
      <div>
        <h1>
          <a href="<?php echo get_page_link(66);?>">
@@ -116,9 +120,13 @@ elseif (get_locale() == 'en_US'):
          <a class="float-more" href="<?php echo get_page_link(66);?>">
            <img src="<?php echo get_template_directory_uri();?>/images/global/magnum-more.png" alt="">
          </a>
+         <a class="index-about-text hide" href="<?php echo get_page_link(42);?>">
+           <p class=""><?php echo $txt; ?></p>
+         </a>
        </h1>
      </div>
    </div>
+
    <div>
      <div>
        <h2>
