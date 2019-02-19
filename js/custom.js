@@ -9,19 +9,10 @@ var initListeners=function(){
     that.addClass('active');
     elements.children().removeClass('active');
     jQuery(elements.children()[(that.index())]).addClass('active');
-    //
-    // if(jQuery(window).width > 720) {
-    //
-    //   jQuery("html, body").animate(
-    //     {scrollTop:jQuery(".slider-elements").offset().top},
-    //     500
-    //   );
-    // } else {
-    //   jQuery("html, body").animate(
-    //     {scrollTop:jQuery(".slider-elements").offset().bottom},
-    //     500
-    //   );
-    // }
+      jQuery("html, body").animate(
+        {scrollTop:jQuery(".slider-elements").offset().top},
+        500
+      );
   })
 }
 var init=function(){

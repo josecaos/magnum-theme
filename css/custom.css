@@ -23,7 +23,7 @@ section {
   line-height: 19px;
 }
 
-input::placeholder {
+input::placeholder, textarea::placeholder {
   color: white !important;
 }
 /*  */

@@ -15,7 +15,7 @@
     <div class="container">
       <a href="<?php echo home_url();?>">
         <img src="<?php echo get_template_directory_uri();?>/images/global/magnum-logo-blanco.png" alt="">
-        <img src="<?php echo get_template_directory_uri();?>/images/global/magnum-logo-circulo-white.png" alt="">
+        <img src="<?php echo get_template_directory_uri();?>/images/global/magnum-logo-blanco.png" alt="">
       </a>
 
       <div>
