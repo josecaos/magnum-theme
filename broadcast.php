@@ -50,15 +50,15 @@ if (get_locale() == 'es_MX' ):
               <li><a href=""> <img src="<?php echo get_template_directory_uri();?>/images/sections/broadcast/brands/magnum-broadcast-infinity.png" alt=""></a></li>
               <li><a href=""> <img src="<?php echo get_template_directory_uri();?>/images/sections/broadcast/brands/magnum-broadcast-linear-acoustic.png" alt=""></a></li>
               <!-- minetonka audio -->
-              <li><a href=""> <img src="<?php //echo get_template_directory_uri();?>/images/sections/broadcast/brands/magnum-broadcast-minetonka-audio.png" alt=""></a></li>
+              <li><a href=""> <img src="<?php echo get_template_directory_uri();?>/images/sections/broadcast/brands/magnum-broadcast-minnetonka-audio.png" alt=""></a></li>
               <li><a href=""> <img src="<?php echo get_template_directory_uri();?>/images/sections/broadcast/brands/magnum-broadcast-25-seven-systems.png" alt=""></a></li>
               <li><a href=""> <img src="<?php echo get_template_directory_uri();?>/images/sections/broadcast/brands/magnum-broadcast-kramer.png" alt=""></a></li>
               <!-- on stage -->
-              <li><a href=""> <img src="<?php //echo get_template_directory_uri();?>/images/sections/broadcast/brands/magnum-broadcast-on-stage.png" alt=""></a></li>
+              <li><a href=""> <img src="<?php echo get_template_directory_uri();?>/images/sections/broadcast/brands/magnum-broadcast-on-stage.png" alt=""></a></li>
               <li><a href=""> <img src="<?php echo get_template_directory_uri();?>/images/sections/broadcast/brands/magnum-broadcast-video-devices.png" alt=""></a></li>
               <li><a href=""> <img src="<?php echo get_template_directory_uri();?>/images/sections/broadcast/brands/magnum-broadcast-sound-devices.png" alt=""></a></li>
               <!-- jutel -->
-              <li><a href=""> <img src="<?php //echo get_template_directory_uri();?>/images/sections/broadcast/brands/magnum-broadcast-jutel.png" alt=""></a></li>
+              <li><a href=""> <img src="<?php echo get_template_directory_uri();?>/images/sections/broadcast/brands/magnum-broadcast-jutel.png" alt=""></a></li>
             </ul>
           </div>
           <div class="slider-elements col-9">

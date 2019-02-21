@@ -23,7 +23,7 @@ section {
   line-height: 19px;
 }
 
-input::placeholder, textarea::placeholder {
+input::placeholder, textarea::placeholder,input, texarea {
   color: white !important;
 }
 /*  */
@@ -88,4 +88,5 @@ footer p strong {
     margin-bottom: 5px;
     padding-top: 14px;
   }
+
 }
