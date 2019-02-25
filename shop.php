@@ -11,7 +11,18 @@ while (have_posts()):
   echo get_the_content();
 
 endwhile;
+
+if (get_locale() == 'es_MX'):
+  ?>
+  <a class="btn-default" href="<?php echo get_page_link(49); ?>  ">Contactar</a>
+  <?php
+  elseif (get_locale() == 'en_US'):
     ?>
+    <a class="btn-default" href="<?php echo get_page_link(77); ?>  ">Contact</a>
+    <?php
+  endif;
+  ?>
+
     <!--
     <section class="detail-product">
     <div class="container">

@@ -23,8 +23,12 @@ section {
   line-height: 19px;
 }
 
-input::placeholder, textarea::placeholder,input, texarea {
+input::placeholder, textarea::placeholder,input, textarea {
   color: white !important;
+}
+input.wpcf7-submit {
+  color: #001f34 !important;
+  cursor: pointer;
 }
 /*  */
 #langs{

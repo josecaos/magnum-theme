@@ -2,7 +2,7 @@
   <div class="container">
     <div class="col-4">
       <p>
-        <strong>Factor #18 </strong>Col. San José Insurgentes, </p><p>Benito Juárez, Ciudad de México, C.P. 03900</p><p> <strong>556 15 74 19 / 56 15 90 49 / 56 15 92 62</strong>
+        <strong>Factor #18 </strong>Col. San José Insurgentes, </p><p>Benito Juárez, Ciudad de México, C.P. 03900</p><p> <strong>+52 556 15 74 19 / 56 15 90 49 / 56 15 92 62</strong>
         </p>
       </div>
       <div class="col-4">

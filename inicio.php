@@ -47,7 +47,7 @@ if (get_locale() == 'es_MX' ):
     <div>
       <div>
         <h2>
-          <a href="<?php echo get_page_link(40);?>">Producción <br>& Transmisión
+          <a href="<?php echo get_page_link(40);?>">Producción <br>& Streaming
           </a>
         </h2>
       </div>

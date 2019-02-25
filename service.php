@@ -42,11 +42,11 @@ get_header();
              <?php
            endif;
            ?>
-           
+
        </div>
        <div class="col-6">
          <div class="carrousel">
-           <img src="<?php echo get_template_directory_uri();?>/images/sections/service/magnum-centro-servicio-marcas_01.png" alt="">
+           <!-- <img src="<?php //echo get_template_directory_uri();?>/images/sections/service/magnum-centro-servicio-marcas_01.png" alt=""> -->
            <img src="<?php echo get_template_directory_uri();?>/images/sections/service/magnum-centro-servicio-marcas_02.png" alt="">
            <img src="<?php echo get_template_directory_uri();?>/images/sections/service/magnum-centro-servicio-marcas_03.png" alt="">
            <img src="<?php echo get_template_directory_uri();?>/images/sections/service/magnum-centro-servicio-marcas_04.png" alt="">
