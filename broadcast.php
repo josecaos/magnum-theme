@@ -46,18 +46,14 @@ if (get_locale() == 'es_MX' ):
               <li><a href=""> <img src="<?php echo get_template_directory_uri();?>/images/sections/broadcast/brands/magnum-broadcast-vimeo.png" alt=""></a></li>
               <li><a href=""> <img src="<?php echo get_template_directory_uri();?>/images/sections/broadcast/brands/magnum-broadcast-telos.png" alt=""></a></li>
               <li><a href=""> <img src="<?php echo get_template_directory_uri();?>/images/sections/broadcast/brands/magnum-broadcast-omnia.png" alt=""></a></li>
-              <!-- infinity -->
               <li><a href=""> <img src="<?php echo get_template_directory_uri();?>/images/sections/broadcast/brands/magnum-broadcast-infinity.png" alt=""></a></li>
               <li><a href=""> <img src="<?php echo get_template_directory_uri();?>/images/sections/broadcast/brands/magnum-broadcast-linear-acoustic.png" alt=""></a></li>
-              <!-- minetonka audio -->
               <li><a href=""> <img src="<?php echo get_template_directory_uri();?>/images/sections/broadcast/brands/magnum-broadcast-minnetonka-audio.png" alt=""></a></li>
               <li><a href=""> <img src="<?php echo get_template_directory_uri();?>/images/sections/broadcast/brands/magnum-broadcast-25-seven-systems.png" alt=""></a></li>
               <li><a href=""> <img src="<?php echo get_template_directory_uri();?>/images/sections/broadcast/brands/magnum-broadcast-kramer.png" alt=""></a></li>
-              <!-- on stage -->
               <li><a href=""> <img src="<?php echo get_template_directory_uri();?>/images/sections/broadcast/brands/magnum-broadcast-on-stage.png" alt=""></a></li>
               <li><a href=""> <img src="<?php echo get_template_directory_uri();?>/images/sections/broadcast/brands/magnum-broadcast-video-devices.png" alt=""></a></li>
               <li><a href=""> <img src="<?php echo get_template_directory_uri();?>/images/sections/broadcast/brands/magnum-broadcast-sound-devices.png" alt=""></a></li>
-              <!-- jutel -->
               <li><a href=""> <img src="<?php echo get_template_directory_uri();?>/images/sections/broadcast/brands/magnum-broadcast-jutel.png" alt=""></a></li>
             </ul>
           </div>
@@ -101,7 +97,7 @@ if (get_locale() == 'es_MX' ):
                 </a>
               </li>
             <?php endwhile; ?>
-            <li><a href="http://www.liveu.tv/" target="_blank"><img src="<?php echo get_template_directory_uri();?>/images/global/magnum-plus.png" alt="">
+            <li><a href="http://www.lawo.com" target="_blank"><img src="<?php echo get_template_directory_uri();?>/images/global/magnum-plus.png" alt="">
               <p><?php echo $idioma;?></p></a></li>
             </ul>
             <!--  aws -->
@@ -122,7 +118,7 @@ if (get_locale() == 'es_MX' ):
                 </a>
               </li>
             <?php endwhile; ?>
-            <li><a href="http://www.liveu.tv/" target="_blank"><img src="<?php echo get_template_directory_uri();?>/images/global/magnum-plus.png" alt="">
+            <li><a href="http://www.elemental.com" target="_blank"><img src="<?php echo get_template_directory_uri();?>/images/global/magnum-plus.png" alt="">
               <p><?php echo $idioma;?></p></a></li>
             </ul>
             <!-- yamaha -->
@@ -143,7 +139,7 @@ if (get_locale() == 'es_MX' ):
                 </a>
               </li>
             <?php endwhile; ?>
-            <li><a href="http://www.liveu.tv/" target="_blank"><img src="<?php echo get_template_directory_uri();?>/images/global/magnum-plus.png" alt="">
+            <li><a href="http://mx.yamaha.com/es/products/proaudio/index.html" target="_blank"><img src="<?php echo get_template_directory_uri();?>/images/global/magnum-plus.png" alt="">
               <p><?php echo $idioma;?></p></a></li>
             </ul>
             <!-- decimator -->
@@ -164,7 +160,7 @@ if (get_locale() == 'es_MX' ):
                 </a>
               </li>
             <?php endwhile; ?>
-            <li><a href="http://www.liveu.tv/" target="_blank"><img src="<?php echo get_template_directory_uri();?>/images/global/magnum-plus.png" alt="">
+            <li><a href="https://www.decimator.com/" target="_blank"><img src="<?php echo get_template_directory_uri();?>/images/global/magnum-plus.png" alt="">
               <p><?php echo $idioma;?></p></a></li>
             </ul>
             <!-- shure -->
@@ -185,7 +181,7 @@ if (get_locale() == 'es_MX' ):
                 </a>
               </li>
             <?php endwhile; ?>
-            <li><a href="http://www.liveu.tv/" target="_blank"><img src="<?php echo get_template_directory_uri();?>/images/global/magnum-plus.png" alt="">
+            <li><a href="https://mx.shure.com/" target="_blank"><img src="<?php echo get_template_directory_uri();?>/images/global/magnum-plus.png" alt="">
               <p><?php echo $idioma;?></p></a></li>
             </ul>
             <!-- AB on air -->
@@ -206,7 +202,7 @@ if (get_locale() == 'es_MX' ):
                 </a>
               </li>
             <?php endwhile; ?>
-            <li><a href="http://www.liveu.tv/" target="_blank"><img src="<?php echo get_template_directory_uri();?>/images/global/magnum-plus.png" alt="">
+            <li><a href="https://www.abonair.com/" target="_blank"><img src="<?php echo get_template_directory_uri();?>/images/global/magnum-plus.png" alt="">
               <p><?php echo $idioma;?></p></a></li>
             </ul>
             <!-- point source -->
@@ -227,7 +223,7 @@ if (get_locale() == 'es_MX' ):
                 </a>
               </li>
             <?php endwhile; ?>
-            <li><a href="http://www.liveu.tv/" target="_blank"><img src="<?php echo get_template_directory_uri();?>/images/global/magnum-plus.png" alt="">
+            <li><a href="http://www.point-sourceaudio.com/" target="_blank"><img src="<?php echo get_template_directory_uri();?>/images/global/magnum-plus.png" alt="">
               <p><?php echo $idioma;?></p></a></li>
             </ul>
             <!-- cedar -->
@@ -248,7 +244,7 @@ if (get_locale() == 'es_MX' ):
                 </a>
               </li>
             <?php endwhile; ?>
-            <li><a href="http://www.liveu.tv/" target="_blank"><img src="<?php echo get_template_directory_uri();?>/images/global/magnum-plus.png" alt="">
+            <li><a href="https://www.cedar-audio.com/" target="_blank"><img src="<?php echo get_template_directory_uri();?>/images/global/magnum-plus.png" alt="">
               <p><?php echo $idioma;?></p></a></li>
             </ul>
             <!-- sennheiser -->
@@ -269,7 +265,7 @@ if (get_locale() == 'es_MX' ):
                 </a>
               </li>
             <?php endwhile; ?>
-            <li><a href="http://www.liveu.tv/" target="_blank"><img src="<?php echo get_template_directory_uri();?>/images/global/magnum-plus.png" alt="">
+            <li><a href="https://es-mx.sennheiser.com/" target="_blank"><img src="<?php echo get_template_directory_uri();?>/images/global/magnum-plus.png" alt="">
               <p><?php echo $idioma;?></p></a></li>
             </ul>
             <!-- brainstorm -->
@@ -290,7 +286,7 @@ if (get_locale() == 'es_MX' ):
                 </a>
               </li>
             <?php endwhile; ?>
-            <li><a href="http://www.liveu.tv/" target="_blank"><img src="<?php echo get_template_directory_uri();?>/images/global/magnum-plus.png" alt="">
+            <li><a href="http://www.brainstorm3d.com/" target="_blank"><img src="<?php echo get_template_directory_uri();?>/images/global/magnum-plus.png" alt="">
               <p><?php echo $idioma;?></p></a></li>
             </ul>
             <!-- vimeo -->
@@ -311,7 +307,7 @@ if (get_locale() == 'es_MX' ):
                 </a>
               </li>
             <?php endwhile; ?>
-            <li><a href="http://www.liveu.tv/" target="_blank"><img src="<?php echo get_template_directory_uri();?>/images/global/magnum-plus.png" alt="">
+            <li><a href="https://vimeo.com" target="_blank"><img src="<?php echo get_template_directory_uri();?>/images/global/magnum-plus.png" alt="">
               <p><?php echo $idioma;?></p></a></li>
             </ul>
             <!-- telos -->
@@ -332,7 +328,7 @@ if (get_locale() == 'es_MX' ):
                 </a>
               </li>
             <?php endwhile; ?>
-            <li><a href="http://www.liveu.tv/" target="_blank"><img src="<?php echo get_template_directory_uri();?>/images/global/magnum-plus.png" alt="">
+            <li><a href="https://www.telosalliance.com/Telos" target="_blank"><img src="<?php echo get_template_directory_uri();?>/images/global/magnum-plus.png" alt="">
               <p><?php echo $idioma;?></p></a></li>
             </ul>
             <!-- omnia -->
@@ -353,7 +349,7 @@ if (get_locale() == 'es_MX' ):
                 </a>
               </li>
             <?php endwhile; ?>
-            <li><a href="http://www.liveu.tv/" target="_blank"><img src="<?php echo get_template_directory_uri();?>/images/global/magnum-plus.png" alt="">
+            <li><a href="https://www.telosalliance.com/Omnia" target="_blank"><img src="<?php echo get_template_directory_uri();?>/images/global/magnum-plus.png" alt="">
               <p><?php echo $idioma;?></p></a></li>
             </ul>
             <!-- infinity -->
@@ -374,7 +370,7 @@ if (get_locale() == 'es_MX' ):
                 </a>
               </li>
             <?php endwhile; ?>
-            <li><a href="http://www.liveu.tv/" target="_blank"><img src="<?php echo get_template_directory_uri();?>/images/global/magnum-plus.png" alt="">
+            <li><a href="https://www.telosalliance.com/Telos-Infinity" target="_blank"><img src="<?php echo get_template_directory_uri();?>/images/global/magnum-plus.png" alt="">
               <p><?php echo $idioma;?></p></a></li>
             </ul>
             <!-- linear acoustic -->
@@ -395,7 +391,7 @@ if (get_locale() == 'es_MX' ):
                 </a>
               </li>
             <?php endwhile; ?>
-            <li><a href="http://www.liveu.tv/" target="_blank"><img src="<?php echo get_template_directory_uri();?>/images/global/magnum-plus.png" alt="">
+            <li><a href="https://www.telosalliance.com/Linear" target="_blank"><img src="<?php echo get_template_directory_uri();?>/images/global/magnum-plus.png" alt="">
               <p><?php echo $idioma;?></p></a></li>
             </ul>
             <!-- minetoka audio -->
@@ -416,7 +412,7 @@ if (get_locale() == 'es_MX' ):
                 </a>
               </li>
             <?php endwhile; ?>
-            <li><a href="http://www.liveu.tv/" target="_blank"><img src="<?php echo get_template_directory_uri();?>/images/global/magnum-plus.png" alt="">
+            <li><a href="https://www.telosalliance.com/MinnetonkaAudio" target="_blank"><img src="<?php echo get_template_directory_uri();?>/images/global/magnum-plus.png" alt="">
               <p><?php echo $idioma;?></p></a></li>
             </ul>
             <!-- 25 -->
@@ -437,7 +433,7 @@ if (get_locale() == 'es_MX' ):
                 </a>
               </li>
             <?php endwhile; ?>
-            <li><a href="http://www.liveu.tv/" target="_blank"><img src="<?php echo get_template_directory_uri();?>/images/global/magnum-plus.png" alt="">
+            <li><a href="https://www.telosalliance.com/25-Seven" target="_blank"><img src="<?php echo get_template_directory_uri();?>/images/global/magnum-plus.png" alt="">
               <p><?php echo $idioma;?></p></a></li>
             </ul>
             <!-- kramer -->
@@ -458,7 +454,7 @@ if (get_locale() == 'es_MX' ):
                 </a>
               </li>
             <?php endwhile; ?>
-            <li><a href="http://www.liveu.tv/" target="_blank"><img src="<?php echo get_template_directory_uri();?>/images/global/magnum-plus.png" alt="">
+            <li><a href="https://www.kramerav.com/mx/" target="_blank"><img src="<?php echo get_template_directory_uri();?>/images/global/magnum-plus.png" alt="">
               <p><?php echo $idioma;?></p></a></li>
             </ul>
             <!-- on stage -->
@@ -479,7 +475,7 @@ if (get_locale() == 'es_MX' ):
                 </a>
               </li>
             <?php endwhile; ?>
-            <li><a href="http://www.liveu.tv/" target="_blank"><img src="<?php echo get_template_directory_uri();?>/images/global/magnum-plus.png" alt="">
+            <li><a href="https://on-stage.com/" target="_blank"><img src="<?php echo get_template_directory_uri();?>/images/global/magnum-plus.png" alt="">
               <p><?php echo $idioma;?></p></a></li>
             </ul>
             <!-- video devices -->
@@ -500,7 +496,7 @@ if (get_locale() == 'es_MX' ):
                 </a>
               </li>
             <?php endwhile; ?>
-            <li><a href="http://www.liveu.tv/" target="_blank"><img src="<?php echo get_template_directory_uri();?>/images/global/magnum-plus.png" alt="">
+            <li><a href="https://www.videodevices.com/" target="_blank"><img src="<?php echo get_template_directory_uri();?>/images/global/magnum-plus.png" alt="">
               <p><?php echo $idioma;?></p></a></li>
             </ul>
             <!-- sound devices -->
@@ -521,7 +517,7 @@ if (get_locale() == 'es_MX' ):
                 </a>
               </li>
             <?php endwhile; ?>
-            <li><a href="http://www.liveu.tv/" target="_blank"><img src="<?php echo get_template_directory_uri();?>/images/global/magnum-plus.png" alt="">
+            <li><a href="https://www.sounddevices.com/" target="_blank"><img src="<?php echo get_template_directory_uri();?>/images/global/magnum-plus.png" alt="">
               <p><?php echo $idioma;?></p></a></li>
             </ul>
             <!-- jutel -->
@@ -542,7 +538,7 @@ if (get_locale() == 'es_MX' ):
                 </a>
               </li>
             <?php endwhile; ?>
-            <li><a href="http://www.liveu.tv/" target="_blank"><img src="<?php echo get_template_directory_uri();?>/images/global/magnum-plus.png" alt="">
+            <li><a href="https://jutel.fi/" target="_blank"><img src="<?php echo get_template_directory_uri();?>/images/global/magnum-plus.png" alt="">
               <p><?php echo $idioma;?></p></a></li>
             </ul>
 
