@@ -120,7 +120,7 @@ $txt = "About Us";
          <a class="float-more" href="<?php echo get_page_link(66);?>">
            <img src="<?php echo get_template_directory_uri();?>/images/global/magnum-more.png" alt="">
          </a>
-         <a class="index-about-text hide" href="<?php echo get_page_link(42);?>">
+         <a class="index-about-text hide" href="<?php echo get_page_link(66);?>">
            <p class=""><?php echo $txt; ?></p>
          </a>
        </h1>
