@@ -77,7 +77,7 @@ if (get_locale() == 'es_MX' ):
               </li>
             <?php endwhile; ?>
             <li>
-              <a href="<?php echo $cat_meta['extra1'] ?>" target="_blank">
+              <a href="<?php echo $cat_link['extra1'] ?>" target="_blank">
                 <img src="<?php echo get_template_directory_uri();?>/images/global/magnum-plus.png" alt="">
                 <p><?php echo $idioma;?></p>
               </a>
