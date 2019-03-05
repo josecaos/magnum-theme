@@ -1,5 +1,31 @@
 jQuery(document).ready(()=>{
-var initListeners=function(){
+
+  // initListeners()
+  slider()
+
+  //slide for broadcast
+  let obj = document.querySelector('#broadcast-cats')
+  if(obj) {
+    jQuery("html, body").animate(
+      {scrollTop:jQuery(".slider-elements").offset().top},
+      1000
+    );
+  }
+  //
+
+  // index about hover
+  jQuery('#inicio-nosotros, #inicio-about').hover(() => {
+    jQuery('.index-about-text').removeClass('hide');
+    jQuery('.float-more').addClass('hide');
+  },() => {
+    jQuery('.float-more').removeClass('hide');
+    jQuery('.index-about-text').addClass('hide');
+  })
+
+  //
+})//ready
+
+function initLIsteners(){
   var buttons=jQuery('.slider-titles li');
   var elements=jQuery('.slider-elements');
   buttons.on('click', function(e){
@@ -8,33 +34,13 @@ var initListeners=function(){
     buttons.removeClass('active');
     that.addClass('active');
     elements.children().removeClass('active');
-    jQuery(elements.children()[(that.index())]).addClass('active');
-      jQuery("html, body").animate(
-        {scrollTop:jQuery(".slider-elements").offset().top},
-        500
-      );
+    jQuery(elements.children()[that.index()]).addClass('active');
+    jQuery("html, body").animate(
+      {scrollTop:jQuery(".slider-elements").offset().top},
+      500
+    );
   })
 }
-var init=function(){
-  initListeners();
-}
-
-init()
-
-slider()
-
-// index about hover
-jQuery('#inicio-nosotros, #inicio-about').hover(() => {
-  jQuery('.index-about-text').removeClass('hide');
-  jQuery('.float-more').addClass('hide');
-},() => {
-  jQuery('.float-more').removeClass('hide');
-  jQuery('.index-about-text').addClass('hide');
-})
-
-//
-})//ready
-
 
 function slider() {
   var initCarrousel=function(){

@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Broadcast
+Template Name: Broadcast.old
 */
 
 get_header();

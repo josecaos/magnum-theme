@@ -58,3 +58,42 @@ add_action( 'init', 'add_category_taxonomy_to_events' );
 function add_category_taxonomy_to_events() {
 	register_taxonomy_for_object_type( 'category', 'broadcast-cpt' );
 }
+
+// extra field in category
+add_action ( 'edit_category_form_fields', 'add_cat_fields');
+function add_cat_fields( $tag ) {    //check for existing featured ID
+    $t_id = $tag->term_id;
+    $cat_meta = get_option( "category_$t_id");
+?>
+<tr class="form-field">
+<th scope="row" valign="top">
+  <label for="extra1">
+  <?php _e('URL de la Categoría'); ?>
+</label>
+</th>
+<td>
+<input type="text" name="Cat_meta[extra1]" id="Cat_meta[extra1]" size="25" style="width:60%;" value="<?php echo $cat_meta['extra1'] ? $cat_meta['extra1'] : ''; ?>">
+<br />
+        <span class="description"><?php _e('URL de la marca'); ?></span>
+    </td>
+</tr>
+
+<?php
+}
+// save extra category extra fields hook
+add_action ( 'edited_category', 'save_extra_category_fileds');
+// save extra category extra fields callback function
+function save_extra_category_fileds( $term_id ) {
+    if ( isset( $_POST['Cat_meta'] ) ) {
+        $t_id = $term_id;
+        $cat_meta = get_option( "category_$t_id");
+        $cat_keys = array_keys($_POST['Cat_meta']);
+            foreach ($cat_keys as $key){
+            if (isset($_POST['Cat_meta'][$key])){
+                $cat_meta[$key] = $_POST['Cat_meta'][$key];
+            }
+        }
+        //save the option array
+        update_option( "category_$t_id", $cat_meta );
+    }
+}
