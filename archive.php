@@ -2,9 +2,6 @@
 
 get_header();
 
-?>
-
-<?php
 if (get_locale() == 'es_MX' ):
 
   $idioma = 'Conoce más productos de la línea';
@@ -55,8 +52,10 @@ if (get_locale() == 'es_MX' ):
             </ul>
           </div>
           <div id="broadcast-cats" class="slider-elements col-9">
-            <!-- live u -->
             <ul class="active">
+              <div class="col-12">
+                <h1 class="cat-title"><?php echo single_cat_title(); ?></h1>
+              </div>
               <?php
               $category = get_category( get_query_var( 'cat' ) );
               $cat_id = $category->cat_ID;
@@ -70,7 +69,7 @@ if (get_locale() == 'es_MX' ):
               while ($q->have_posts()):$q->the_post();
               ?>
               <li class="col-12 col-md-4">
-                <a href="<?php echo $cat_link;?>">
+                <a href="<?php echo get_the_permalink();?>">
                   <img src="<?php echo get_the_post_thumbnail_url();?>" alt="">
                   <p><?php echo get_the_title();?></p>
                 </a>

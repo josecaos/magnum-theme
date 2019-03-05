@@ -24,6 +24,9 @@ jQuery(document).ready(()=>{
 
   //
 })//ready
+function regresa() {
+  window.history.back();
+}
 
 function initLIsteners(){
   var buttons=jQuery('.slider-titles li');

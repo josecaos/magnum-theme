@@ -23,7 +23,8 @@ if (get_locale() == 'es_MX' ):
     <div>
       <div>
         <h2>
-          <a href="<?php echo get_page_link(6);?>">Broadcast
+          <!-- <a href="<?php //echo get_page_link(6);?>">Broadcast -->
+          <a href="<?php echo get_category_link(2);?>">Broadcast
           </a>
         </h2>
       </div>
@@ -130,7 +131,8 @@ $txt = "About Us";
    <div>
      <div>
        <h2>
-         <a href="<?php echo get_page_link(83);?>">Broadcast
+         <!-- <a href="<?php //echo get_page_link(83);?>">Broadcast -->
+         <a href="<?php echo get_category_link(2);?>">Broadcast
          </a>
        </h2>
      </div>

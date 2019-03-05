@@ -30,6 +30,22 @@ input.wpcf7-submit {
   color: #001f34 !important;
   cursor: pointer;
 }
+.cat-title {
+  text-align: center;
+  padding: 16px 0;
+  text-transform: uppercase;
+}
+.boton-regresa  {
+  margin-top: 32px;
+}
+.boton-regresa a {
+  color: white !important;
+  margin-top: 32px;
+}
+.boton-regresa a:hover {
+  color: gray !important
+}
+
 /*  */
 #langs{
   opacity: 1;

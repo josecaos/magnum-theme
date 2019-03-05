@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Boradcast
+Template Name: Broadcast
 */
 get_header();
 

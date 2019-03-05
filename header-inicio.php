@@ -47,7 +47,7 @@
           </a>
         </li>
           <li class="active">
-            <a href="<?php echo get_page_link(6);?>">
+            <a href="<?php echo get_category_link(2);?>">
             Broadcast
           </a>
         </li>
@@ -108,7 +108,7 @@
         </a>
       </li>
         <li class="active">
-          <a href="<?php echo get_page_link(83);?>">
+          <a href="<?php echo get_category_link(2);?>">
           Broadcast
         </a>
       </li>
