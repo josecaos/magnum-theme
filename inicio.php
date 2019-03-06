@@ -132,7 +132,7 @@ $txt = "About Us";
      <div>
        <h2>
          <!-- <a href="<?php //echo get_page_link(83);?>">Broadcast -->
-         <a href="<?php echo get_category_link(2);?>">Broadcast
+         <a href="<?php echo get_category_link(77);?>">Broadcast
          </a>
        </h2>
      </div>

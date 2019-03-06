@@ -24,8 +24,9 @@ jQuery(document).ready(()=>{
 
   //
 })//ready
+
 function regresa() {
-  window.history.back();
+  window.history.back()
 }
 
 function initLIsteners(){

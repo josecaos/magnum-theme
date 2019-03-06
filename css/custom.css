@@ -41,6 +41,7 @@ input.wpcf7-submit {
 .boton-regresa a {
   color: white !important;
   margin-top: 32px;
+  cursor: pointer;
 }
 .boton-regresa a:hover {
   color: gray !important

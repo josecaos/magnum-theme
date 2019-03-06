@@ -13,20 +13,23 @@ get_header();
           echo the_content();
           ?>
 
-        <?php endwhile; ?>
-        <?php
+        <?php endwhile;
+
+
         if (get_locale() == 'es_MX'):
+          $link_back = "<< Regresa a los productos";
           ?>
           <a class="btn-default" href="<?php echo get_page_link(49) ?>">Contactar</a>
           <?php
           elseif (get_locale() == 'en_US'):
+            $link_back = "<< Back to Products";
             ?>
             <a class="btn-default" href="<?php echo get_page_link(77) ?>">Contact us</a>
           <?php endif; ?>
 
         </br>
           <div class="boton-regresa col-12">
-            <a href="" onclick="regresa()"><< Regresa a los productos</a>
+            <a onclick="regresa()"><?php echo $link_back; ?> </a>
           </div>
         </div>
 
