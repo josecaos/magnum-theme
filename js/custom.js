@@ -1,17 +1,17 @@
 jQuery(document).ready(()=>{
 
-  initListeners()
-  slider()
-
   //slide for broadcast
   let obj = document.querySelector('#broadcast-cats')
   if(obj) {
     jQuery("html, body").animate(
-      {scrollTop:jQuery(".slider-elements").offset().top},
+      {scrollTop:jQuery(".broadcast-elements").offset().top},
       1000
     );
   }
   //
+  initListeners()
+  slider()
+
 
   // index about hover
   jQuery('#inicio-nosotros, #inicio-about').hover(() => {

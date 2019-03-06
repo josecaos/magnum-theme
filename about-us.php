@@ -5,9 +5,6 @@ Template Name: About Us
 
 get_header();
 
-
-
-
 ?>
 
  <section class="our-brands">

@@ -2,11 +2,9 @@
 /*
 Template Name: Broadcast
 */
+
 get_header();
 
-?>
-
-<?php
 if (get_locale() == 'es_MX' ):
 
   $idioma = 'Conoce más productos de la línea';
@@ -28,8 +26,8 @@ if (get_locale() == 'es_MX' ):
 
         <?php echo $textos; ?>
         <!--  -->
-        <div class="slider-container row">
-          <div class="slider-titles col-3">
+        <div class="broadcast-container row">
+          <div class="broadcast-titles col-3">
             <ul>
               <li><a href="<?php echo get_category_link(2);?>"> <img src="<?php echo get_template_directory_uri();?>/images/sections/broadcast/brands/magnum-broadcast-LiveU.png" alt=""></a></li>
               <li><a href="<?php echo get_category_link(17);?>"> <img src="<?php echo get_template_directory_uri();?>/images/sections/broadcast/brands/magnum-broadcast-lawo.png" alt=""></a></li>
@@ -56,9 +54,11 @@ if (get_locale() == 'es_MX' ):
               <li><a href="<?php echo get_category_link(242);?>"> <img src="<?php echo get_template_directory_uri();?>/images/sections/broadcast/brands/magnum-broadcast-jutel.png" alt=""></a></li>
             </ul>
           </div>
-          <div id="broadcast-cats" class="slider-elements col-9">
-            <!-- live u -->
+          <div id="broadcast-cats" class="broadcast-elements col-9">
             <ul class="active">
+              <div class="col-12">
+                <h1 class="cat-title"><?php echo single_cat_title(); ?></h1>
+              </div>
               <?php
               $category = get_category( get_query_var( 'cat' ) );
               $cat_id = $category->cat_ID;
@@ -72,7 +72,7 @@ if (get_locale() == 'es_MX' ):
               while ($q->have_posts()):$q->the_post();
               ?>
               <li class="col-12 col-md-4">
-                <a href="<?php echo $cat_link;?>">
+                <a href="<?php echo get_the_permalink();?>">
                   <img src="<?php echo get_the_post_thumbnail_url();?>" alt="">
                   <p><?php echo get_the_title();?></p>
                 </a>

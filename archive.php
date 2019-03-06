@@ -23,8 +23,8 @@ if (get_locale() == 'es_MX' ):
 
         <?php echo $textos; ?>
         <!--  -->
-        <div class="slider-container row">
-          <div class="slider-titles col-3">
+        <div class="broadcast-container row">
+          <div class="broadcast-titles col-3">
             <ul>
               <li><a href="<?php echo get_category_link(2);?>"> <img src="<?php echo get_template_directory_uri();?>/images/sections/broadcast/brands/magnum-broadcast-LiveU.png" alt=""></a></li>
               <li><a href="<?php echo get_category_link(17);?>"> <img src="<?php echo get_template_directory_uri();?>/images/sections/broadcast/brands/magnum-broadcast-lawo.png" alt=""></a></li>
@@ -51,7 +51,7 @@ if (get_locale() == 'es_MX' ):
               <li><a href="<?php echo get_category_link(242);?>"> <img src="<?php echo get_template_directory_uri();?>/images/sections/broadcast/brands/magnum-broadcast-jutel.png" alt=""></a></li>
             </ul>
           </div>
-          <div id="broadcast-cats" class="slider-elements col-9">
+          <div id="broadcast-cats" class="broadcast-elements col-9">
             <ul class="active">
               <div class="col-12">
                 <h1 class="cat-title"><?php echo single_cat_title(); ?></h1>
