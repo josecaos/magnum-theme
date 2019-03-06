@@ -1,6 +1,6 @@
 jQuery(document).ready(()=>{
 
-  // initListeners()
+  initListeners()
   slider()
 
   //slide for broadcast
@@ -29,7 +29,7 @@ function regresa() {
   window.history.back()
 }
 
-function initLIsteners(){
+function initListeners(){
   var buttons=jQuery('.slider-titles li');
   var elements=jQuery('.slider-elements');
   buttons.on('click', function(e){
@@ -39,10 +39,10 @@ function initLIsteners(){
     that.addClass('active');
     elements.children().removeClass('active');
     jQuery(elements.children()[that.index()]).addClass('active');
-    jQuery("html, body").animate(
-      {scrollTop:jQuery(".slider-elements").offset().top},
-      500
-    );
+    // jQuery("html, body").animate(
+    //   {scrollTop:jQuery(".slider-elements").offset().top},
+    //   500
+    // );
   })
 }
 
